@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		38DB08E4260346160070B11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08E3260346160070B11B /* AppDelegate.swift */; };
 		38DB08E6260346160070B11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08E5260346160070B11B /* SceneDelegate.swift */; };
-		38DB08E8260346160070B11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08E7260346160070B11B /* ViewController.swift */; };
+		38DB08E8260346160070B11B /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08E7260346160070B11B /* RecipeTableViewController.swift */; };
 		38DB08EB260346160070B11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DB08E9260346160070B11B /* Main.storyboard */; };
 		38DB08ED260346170070B11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DB08EC260346170070B11B /* Assets.xcassets */; };
 		38DB08F0260346170070B11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DB08EE260346170070B11B /* LaunchScreen.storyboard */; };
+		38DB08FA2603465B0070B11B /* FetchModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08F92603465B0070B11B /* FetchModal.swift */; };
+		38DB08FD260348BB0070B11B /* RecipeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08FC260348BB0070B11B /* RecipeTableCell.swift */; };
+		38DB090026034A290070B11B /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB08FF26034A290070B11B /* UIViewControllerExtension.swift */; };
+		38DB090326034F0D0070B11B /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB090226034F0D0070B11B /* UIImageViewExtension.swift */; };
+		38DB0907260351120070B11B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB0906260351120070B11B /* DetailViewController.swift */; };
+		38DB090A260351720070B11B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB0909260351720070B11B /* StringExtension.swift */; };
+		38DB09282603645A0070B11B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB09272603645A0070B11B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38DB08E0260346160070B11B /* RecipePuppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipePuppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DB08E3260346160070B11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38DB08E5260346160070B11B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38DB08E7260346160070B11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DB08E7260346160070B11B /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 		38DB08EA260346160070B11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38DB08EC260346170070B11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38DB08EF260346170070B11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38DB08F1260346170070B11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DB08F92603465B0070B11B /* FetchModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModal.swift; sourceTree = "<group>"; };
+		38DB08FC260348BB0070B11B /* RecipeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableCell.swift; sourceTree = "<group>"; };
+		38DB08FF26034A290070B11B /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		38DB090226034F0D0070B11B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		38DB0906260351120070B11B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		38DB0909260351720070B11B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		38DB09272603645A0070B11B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,44 @@
 			children = (
 				38DB08E3260346160070B11B /* AppDelegate.swift */,
 				38DB08E5260346160070B11B /* SceneDelegate.swift */,
-				38DB08E7260346160070B11B /* ViewController.swift */,
-				38DB08E9260346160070B11B /* Main.storyboard */,
 				38DB08EC260346170070B11B /* Assets.xcassets */,
 				38DB08EE260346170070B11B /* LaunchScreen.storyboard */,
 				38DB08F1260346170070B11B /* Info.plist */,
+				38EE021C26039A0300A1E5CA /* Modal */,
+				38DB090C2603517F0070B11B /* Extensions */,
+				38DB092A260366630070B11B /* Screen */,
 			);
 			path = RecipePuppy;
+			sourceTree = "<group>";
+		};
+		38DB090C2603517F0070B11B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38DB08FF26034A290070B11B /* UIViewControllerExtension.swift */,
+				38DB090226034F0D0070B11B /* UIImageViewExtension.swift */,
+				38DB0909260351720070B11B /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38DB092A260366630070B11B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				38DB08FC260348BB0070B11B /* RecipeTableCell.swift */,
+				38DB09272603645A0070B11B /* LoginViewController.swift */,
+				38DB08E7260346160070B11B /* RecipeTableViewController.swift */,
+				38DB0906260351120070B11B /* DetailViewController.swift */,
+				38DB08E9260346160070B11B /* Main.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		38EE021C26039A0300A1E5CA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				38DB08F92603465B0070B11B /* FetchModal.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38DB08E8260346160070B11B /* ViewController.swift in Sources */,
+				38DB08E8260346160070B11B /* RecipeTableViewController.swift in Sources */,
+				38DB090326034F0D0070B11B /* UIImageViewExtension.swift in Sources */,
 				38DB08E4260346160070B11B /* AppDelegate.swift in Sources */,
+				38DB090026034A290070B11B /* UIViewControllerExtension.swift in Sources */,
+				38DB08FA2603465B0070B11B /* FetchModal.swift in Sources */,
+				38DB090A260351720070B11B /* StringExtension.swift in Sources */,
+				38DB08FD260348BB0070B11B /* RecipeTableCell.swift in Sources */,
 				38DB08E6260346160070B11B /* SceneDelegate.swift in Sources */,
+				38DB09282603645A0070B11B /* LoginViewController.swift in Sources */,
+				38DB0907260351120070B11B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MatejTerek.RecipePuppy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MatejTerek.RecipePuppy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
